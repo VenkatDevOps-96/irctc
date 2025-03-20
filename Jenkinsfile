@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('git clone') {
             steps {
-                git url : 'https://github.com/VenkatDevOps-96/war-web-project.git', branch: 'Master'
+                git url : 'https://github.com/VenkatDevOps-96/war-web-project.git', branch: 'master'
             }
         }
         stage ('Build') {
